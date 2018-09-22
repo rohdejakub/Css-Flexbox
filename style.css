@@ -9,7 +9,7 @@ body{
 
 .wrapper{
     width: 100%;
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -20,7 +20,7 @@ body{
 }
 
 .box{
-    min-width: 200px;
+    flex: 1 1 500px;
     height: 100px;
     flex-grow: 1;
 }
