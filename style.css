@@ -17,10 +17,15 @@ body{
     display: flex;
     background-color: white;
     flex-wrap: wrap;
+    flex-flow: row;
+    height: 800px;
+    justify-content: center; 
+    align-items: center;
+   // align-content: center;
 }
 
 .box{
-    flex: 1 1 500px; /*flex grow, flex shrink, flex basis*/
+    flex: 0 0 100px; /*flex grow, flex shrink, flex basis*/
     height: 100px;
 }
 
